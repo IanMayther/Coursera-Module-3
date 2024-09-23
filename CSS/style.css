@@ -1,0 +1,56 @@
+/*Mystical Sunrise
+#1b1b1b
+#392c41
+#684875
+#9d58a1
+#e896d3
+*/
+
+body {
+    background-color: #684875;
+    font-size: 16px;
+    font-family: Ubuntu, Arial;
+    color: #1b1b1b;
+}
+
+/**HEADER**/
+#header-nav{
+    background-color: #e896d3;
+}
+
+#logo-img{
+    background: url('../images/food_llc_logo.jpg') no-repeat;
+    width: 200px;
+    height: 200px;
+    margin: 10px 15px 10px 0px;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+    float: left;
+    clear: right;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+/**BODY**/
+#main-header {
+    width: 100%;
+    text-align: center;
+}
+
+.content-tile {
+    background-color: #9d58a1;
+    border: #1b1b1b solid 3px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.content-tile h3{
+    text-align: center;
+} 
+
+/*Media Queries*/
