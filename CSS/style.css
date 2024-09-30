@@ -16,26 +16,28 @@ body {
 /**HEADER**/
 #header-nav{
     background-color: #e896d3;
+    align-items: center;
 }
-
+/*
 #logo-img{
     background: url('../images/food_llc_logo.jpg') no-repeat;
     width: 200px;
     height: 200px;
     margin: 10px 15px 10px 0px;
 }
-
+*/
 .navbar-brand {
     padding-top: 25px;
     float: left;
     clear: right;
 }
 
+/*
 .navbar-brand a:hover, .navbar-brand a:focus{
     text-decoration: none;
 }
-
-/**BODY**/
+*/
+/**BODY
 #main-header {
     width: 100%;
     text-align: center;
@@ -52,5 +54,5 @@ body {
 .content-tile h3{
     text-align: center;
 } 
-
+**/
 /*Media Queries*/
