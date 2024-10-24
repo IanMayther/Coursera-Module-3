@@ -7,7 +7,7 @@
 */
 
 body {
-    background-color: #684875;
+    background-color: #e896d3;
     font-size: 16px;
     font-family: Ubuntu, Arial;
     color: #1b1b1b;
@@ -15,31 +15,31 @@ body {
 
 /**HEADER**/
 #header-nav{
-    background-color: #e896d3;
+    background-color: #684875;
     align-items: center;
-}
-/*
-#logo-img{
-    background: url('../images/food_llc_logo.jpg') no-repeat;
-    width: 200px;
-    height: 200px;
-    margin: 10px 15px 10px 0px;
-}
-*/
-.navbar-brand {
-    padding-top: 25px;
-    float: left;
-    clear: right;
+    padding: 0 2% 0 2%;
 }
 
-/*
-.navbar-brand a:hover, .navbar-brand a:focus{
-    text-decoration: none;
+.nav-item{
+    background-color: #9d58a1;
+    display: grid;
+    border-bottom: #1b1b1b solid 3px;
 }
-*/
-/**BODY
+
+.break {
+    height: 1px;
+    width: 100%;
+    color: #684875;
+}
+
+/*BODY*/
 #main-header {
     width: 100%;
+    text-align: center;
+}
+
+
+li a{
     text-align: center;
 }
 
@@ -54,5 +54,22 @@ body {
 .content-tile h3{
     text-align: center;
 } 
-**/
+
+
+#menuButton {
+    visibility: visible !important;
+}
+
 /*Media Queries*/
+@media (min-width : 576px) {
+    #menuButton {
+        visibility: hidden !important;
+    }
+}
+
+@media (max-width : 576px) {
+    #content-meat{
+        padding: 0 5% 0 5%;
+    }
+}
+
